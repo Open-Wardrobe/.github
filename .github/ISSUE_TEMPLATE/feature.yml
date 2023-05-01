@@ -1,0 +1,7 @@
+name: New Feature
+description: New Feature
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      label: description
