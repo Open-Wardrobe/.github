@@ -1,8 +1,0 @@
-name: General
-description: General
-title: "[General]: "
-body:
-  - type: textarea
-    id: description
-    attributes:
-      label: Description
