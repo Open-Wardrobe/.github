@@ -1,0 +1,8 @@
+name: General Issue
+description: General Issue
+title: "[General]: "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
