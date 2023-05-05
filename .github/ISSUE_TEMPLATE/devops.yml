@@ -35,7 +35,7 @@ body:
         - document
         - collaborate
 
-  - type: dropdown
+  - type: checkboxe
     id: components
     attributes:
       label: What Components are Effected?
