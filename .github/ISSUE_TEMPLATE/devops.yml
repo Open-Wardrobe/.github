@@ -1,0 +1,11 @@
+name: New Devops Task
+description: New Devops Task
+title: "[DevOps]: "
+labels: ["devops"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description of the Devops Task
+      placeholder: Please enter a description on the task
