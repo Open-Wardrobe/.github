@@ -34,3 +34,21 @@ body:
         - monitor
         - document
         - collaborate
+
+  - type: markdown
+    attributes:
+      value: "## Describe"
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description of the Devops Task
+      placeholder: Please enter a description on the task
+
+  - type: textarea
+    id: maturity-goal
+    attributes:
+      label: Maturity goal
+      description: Description the maturity goal for this task
+      placeholder: Please enter a maturity goal for this task
