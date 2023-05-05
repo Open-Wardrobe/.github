@@ -1,0 +1,26 @@
+name: New Devops Task
+description: New Devops Task
+title: "[DevOps]: "
+labels: ["devops"]
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: What phase of the devops cycle is this targeting
+      options:
+        - plan
+        - code
+        - build
+        - test
+        - release
+        - deploy
+        - monitor
+        - document
+        - collaborate
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description of the Devops Task
+      placeholder: Please enter a description on the task
