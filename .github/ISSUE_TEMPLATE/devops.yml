@@ -7,14 +7,6 @@ body:
 
   - type: markdown
     attributes: 
-      value: "<details>"
-
-  - type: markdown
-    attributes: 
-      value: "<summary>Tips for collapsed sections</summary>"
-  
-  - type: markdown
-    attributes: 
       value: "## Categorize"
 
   - type: dropdown
@@ -61,10 +53,6 @@ body:
         - label: local
         - label: dev
         - label: prod
-
-  - type: markdown
-    attributes: 
-      value: "</details>"
 
   - type: markdown
     attributes:
