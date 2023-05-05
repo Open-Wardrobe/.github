@@ -12,7 +12,7 @@ body:
   - type: dropdown
     id: task-type
     attributes:
-      label: Task type
+      label: Task Type
       options:
         - enhancement
         - fix
@@ -23,7 +23,7 @@ body:
   - type: dropdown
     id: phase
     attributes:
-      label: What phase of the devops cycle is this targeting
+      label: What phase of the DevOps cycle is this targeting
       options:
         - plan
         - code
@@ -38,7 +38,7 @@ body:
   - type: dropdown
     id: components
     attributes:
-      label: What components are effected?
+      label: What Components are Effected?
       multiple: true
       options:
         - dev container
@@ -54,14 +54,12 @@ body:
     id: description
     attributes:
       label: Description
-      description: Description of the Devops Task
       placeholder: Please enter a description on the task
 
   - type: textarea
     id: maturity-goal
     attributes:
-      label: Maturity goal
-      description: Description the maturity goal for this task
+      label: Maturity Goals
       placeholder: Please enter a maturity goal for this task
 
   - type: markdown
@@ -69,10 +67,9 @@ body:
       value: "## Plan"
       
   - type: textarea
-    id: tasks
+    id: sub-tasks
     attributes:
-      label: tasks
-      description: List subtasks
+      label: Sub Tasks
       placeholder: Please a list of subtasks
 
   - type: markdown
