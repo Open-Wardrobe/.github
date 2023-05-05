@@ -71,11 +71,15 @@ body:
       placeholder: Please enter a maturity goal for this task
 
   - type: textarea
-    id: specifications
+    id: scenario-map
     attributes:
-      label: Specifications of Task
-      placeholder: 
-
+      label: Scenario Map
+      value: |
+        Scenario: [ScenarioDescription]
+          Given [State]
+          When [Predicate]
+          Then [Outcome]
+          
   - type: markdown
     attributes:
       value: "## Plan"
