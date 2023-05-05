@@ -65,10 +65,26 @@ body:
       placeholder: Please enter a description on the task
 
   - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      placeholder: Please enter a description on the problem
+
+  - type: textarea
     id: maturity-goal
     attributes:
       label: Maturity Goals
       placeholder: Please enter a maturity goal for this task
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story
+      value: |
+        As a [User]
+        I want [Functionality]
+        When [Predicate]
+        Then [Outcome]
 
   - type: textarea
     id: scenario-map
@@ -76,13 +92,25 @@ body:
       label: Scenario Map
       value: |
         Scenario: [ScenarioDescription]
-          Given [State]
+          Given [Context]
           When [Predicate]
           Then [Outcome]
-          
+
+  - type: textarea
+    id: additional-requirments
+    attributes:
+      label: Additional Requirments
+      placeholder: Please enter any additional requirments
+
   - type: markdown
     attributes:
       value: "## Plan"
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      placeholder: Please describe the solution
       
   - type: textarea
     id: sub-tasks
