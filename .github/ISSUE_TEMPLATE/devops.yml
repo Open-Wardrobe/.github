@@ -10,26 +10,8 @@ body:
   
     - type: dropdown
       id: task-type
-      attributes:
-        label: Task type
-        options:
-          - enhancement
-          - fix
-          - refactor
-          - document
-          - configure
-          
+        
   - type: dropdown
     id: phase
     attributes:
-      label: What phase of the devops cycle is this targeting
-      options:
-        - plan
-        - code
-        - build
-        - test
-        - release
-        - deploy
-        - monitor
-        - document
-        - collaborate
+      label: What phase of the devops cycle is this targeting?
