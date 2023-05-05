@@ -35,6 +35,17 @@ body:
         - document
         - collaborate
 
+  - type: dropdown
+    id: components
+    attributes:
+      label: What components are effected?
+      multiple: true
+      options:
+        - dev container
+        - code base
+        - repo
+        - github
+
   - type: markdown
     attributes:
       value: "## Describe"
