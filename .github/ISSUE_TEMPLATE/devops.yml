@@ -45,6 +45,15 @@ body:
         - label: repo
         - label: github
 
+  - type: checkboxes
+    id: environments
+    attributes:
+      label: What Enviroments are Effected?
+      options:
+        - label: local
+        - label: dev
+        - label: prod
+
   - type: markdown
     attributes:
       value: "## Describe"
@@ -60,6 +69,12 @@ body:
     attributes:
       label: Maturity Goals
       placeholder: Please enter a maturity goal for this task
+
+  - type: textarea
+    id: specifications
+    attributes:
+      label: Specifications of Task
+      placeholder: 
 
   - type: markdown
     attributes:
