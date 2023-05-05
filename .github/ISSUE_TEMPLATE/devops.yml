@@ -3,6 +3,22 @@ description: New Devops Task
 title: "[DevOps]: "
 labels: ["devops"]
 body:
+
+    - type: markdown
+      attributes:
+        value: ## Categorize
+  
+    - type: dropdown
+      id: task-type
+      attributes:
+        label: Task type
+        options:
+          - enhancement
+          - fix
+          - refactor
+          - document
+          - configure
+          
   - type: dropdown
     id: phase
     attributes:
@@ -17,10 +33,58 @@ body:
         - monitor
         - document
         - collaborate
+   
+  - type: dropdown
+    id: components
+    attributes:
+      label: What components are effected?
+      multiple: true
+      options:
+        - dev container
+        - code base
+        - repo
+        - github
         
+  - type: markdown
+    attributes:
+      value: ## Describe
+      
   - type: textarea
     id: description
     attributes:
       label: Description
       description: Description of the Devops Task
       placeholder: Please enter a description on the task
+      
+  - type: textarea
+    id: maturity-goal
+    attributes:
+      label: Maturity goal
+      description: Description the maturity goal for this task
+      placeholder: Please enter a maturity goal for this task
+      
+  - type: markdown
+    attributes:
+      value: ## Plan
+      
+  - type: textarea
+    id: tasks
+    attributes:
+      label: tasks
+      description: List subtasks
+      placeholder: Please a list of subtasks
+      
+  - type: markdown
+    attributes:
+      value: ## Additional Details
+      
+  - type: textarea
+    id: notes-links
+    attributes:
+      label: tasks
+      description: List subtasks
+      placeholder: Please a list of subtasks
+      
+  
+      
+   
