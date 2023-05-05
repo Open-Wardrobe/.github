@@ -2,16 +2,35 @@ name: New Devops Task
 description: New Devops Task
 title: "[DevOps]: "
 labels: ["devops"]
-body:
 
-    - type: markdown
-      attributes:
-        value: "## Categorize"
+body:
   
-    - type: dropdown
-      id: task-type
-        
+  - type: markdown
+    attributes: 
+      value: "## Categorize"
+
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: Task type
+      options:
+        - enhancement
+        - fix
+        - refactor
+        - document
+        - configure
+
   - type: dropdown
     id: phase
     attributes:
-      label: What phase of the devops cycle is this targeting?
+      label: What phase of the devops cycle is this targeting
+      options:
+        - plan
+        - code
+        - build
+        - test
+        - release
+        - deploy
+        - monitor
+        - document
+        - collaborate
