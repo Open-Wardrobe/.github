@@ -2,6 +2,8 @@ name: New Devops Task
 description: New Devops Task
 title: "[DevOps]: "
 labels: ["devops"]
+assignees:
+  - MickeRitchieDev
 
 body:
 
