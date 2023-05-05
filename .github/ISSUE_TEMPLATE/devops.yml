@@ -6,7 +6,7 @@ body:
 
     - type: markdown
       attributes:
-        value: ## Categorize
+        value: "## Categorize"
   
     - type: dropdown
       id: task-type
@@ -47,7 +47,7 @@ body:
         
   - type: markdown
     attributes:
-      value: ## Describe
+      value: "## Describe"
       
   - type: textarea
     id: description
@@ -65,7 +65,7 @@ body:
       
   - type: markdown
     attributes:
-      value: ## Plan
+      value: "## Plan"
       
   - type: textarea
     id: tasks
@@ -76,7 +76,7 @@ body:
       
   - type: markdown
     attributes:
-      value: ## Additional Details
+      value: "## Additional Details"
       
   - type: textarea
     id: notes-links
