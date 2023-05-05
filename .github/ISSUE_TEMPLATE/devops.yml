@@ -8,6 +8,10 @@ body:
   - type: markdown
     attributes: 
       value: "<details>"
+
+  - type: markdown
+    attributes: 
+      value: "<summary>Tips for collapsed sections</summary>"
   
   - type: markdown
     attributes: 
