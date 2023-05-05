@@ -63,3 +63,23 @@ body:
       label: Maturity goal
       description: Description the maturity goal for this task
       placeholder: Please enter a maturity goal for this task
+
+  - type: markdown
+    attributes:
+      value: "## Plan"
+      
+  - type: textarea
+    id: tasks
+    attributes:
+      label: tasks
+      description: List subtasks
+      placeholder: Please a list of subtasks
+
+  - type: markdown
+    attributes:
+      value: "## Additional Resources"
+      
+  - type: textarea
+    id: notes-links
+    attributes:
+      label: Notes & links
