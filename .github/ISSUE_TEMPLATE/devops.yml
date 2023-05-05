@@ -39,7 +39,6 @@ body:
     id: components
     attributes:
       label: What Components are Effected?
-      multiple: true
       options:
         - dev container
         - code base
