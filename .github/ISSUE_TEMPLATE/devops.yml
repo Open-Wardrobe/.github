@@ -40,10 +40,10 @@ body:
     attributes:
       label: What Components are Effected?
       options:
-        - dev container
-        - code base
-        - repo
-        - github
+        - label: dev container
+        - label: code base
+        - label: repo
+        - label: github
 
   - type: markdown
     attributes:
