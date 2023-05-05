@@ -4,6 +4,10 @@ title: "[DevOps]: "
 labels: ["devops"]
 
 body:
+
+  - type: markdown
+    attributes: 
+      value: "<details>"
   
   - type: markdown
     attributes: 
@@ -53,6 +57,10 @@ body:
         - label: local
         - label: dev
         - label: prod
+
+  - type: markdown
+    attributes: 
+      value: "</details>"
 
   - type: markdown
     attributes:
